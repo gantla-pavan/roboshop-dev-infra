@@ -41,15 +41,15 @@
     destination = "/tmp/bootstrap.sh"
    }    
 
-  provisioner "remote-exec" {
-    inline = [
-        "chmod +x /tmp/bootstrap.sh",
-        # "sudo sh /tmp/bootstrap.sh"
-        "sudo sh /tmp/bootstrap.sh"
-    ]
-  }
+#   provisioner "remote-exec" {
+#     inline = [
+#         "chmod +x /tmp/bootstrap.sh",
+#         # "sudo sh /tmp/bootstrap.sh"
+#         "sudo sh /tmp/bootstrap.sh"
+#     ]
+#   }
  
-}
+# }
 
 
 # resource "aws_iam_instance_profile" "bastion" {
