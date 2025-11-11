@@ -25,3 +25,4 @@ resource "aws_security_group_rule" "mongodb_bastion" {
   protocol          = "tcp"
   to_port           = 22
 }
+
