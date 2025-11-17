@@ -10,3 +10,4 @@ sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashi
 sudo yum -y install terraform
 
 # sudo lvreduce -r -L 6G /dev/mapper/RootVG-rootVol
+
